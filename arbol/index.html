@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Pac de Desarrollo - Diseño de interfaces Web - Daniel GM</title>
+        <link rel="stylesheet" href="./css/skeleton.css">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+
+    <body>
+        <div class="row">
+            <button id="add" class="six columns button-primary">Poner adorno</button>            
+            <button id="remove" class="six columns button-primary" >Agitar Árbol</button>
+            <div class="six columns"><p>Bolas: <span id="ballsCounter"></span> </p></div>            
+            <div class="six columns"><p>Eliminadas: <span id="removedBalls"></span> </p></div>
+        </div>
+        <div id="treeContainer">
+            <img src="tree.png" class="" id="arbol" height="400" width="381">
+        </div>
+        <script src="js/jquery-3.5.1.js"></script>
+        <script src="js/jquery-ui.js"></script>
+        <script src="js/tree.js"></script>    
+    </body>
+</html>
