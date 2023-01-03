@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Máquina Tragaperras en JS - DGM</title>
+		<link rel="shortcut icon" href="/img/favicon.ico">
+		<link rel="stylesheet" href="/css/style.css">
+		<link href="/css/skeleton.css" rel="stylesheet" />
+	</head>
+<body>
+	<h1>Máquina tragaperras</h1>
+	
+	<div class="controls">
+		<p>¡Para comenzar el juego introduzca las monedas!</p>
+		<button onclick="insertCoin()" id="coinBotton" >Añadir monedas</button>
+		<input id="coinBox" type="text" value="10"/>
+
+	</div>
+
+	<p>Monedas actuales: <span id="userCoins">0</span></p>
+	<div id="slotContainer">
+		
+			<div class="slot">
+				<img id="slot0" src="/img/default.png">
+			</div>
+			<div class="slot">
+				<img id="slot1" src="/img/default.png">
+			</div>
+			<div class="slot">
+				<img id="slot2" src="/img/default.png">
+			</div>
+		
+		</div>
+
+		</div>
+		<div class="controls1">
+			<button onclick="spin()" id="spinBotton" >Tirar</button>
+			<button onclick="exit()" id="exitBotton" >Salir</button>
+		</div>
+
+		<div>
+			<ul id="awardList">
+				<li></li>
+			</ul>
+		</div>
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/slotMachine.js"></script>
+	<script src="/js/slot-machine.js"></script>
+</body>
+</html>
