@@ -1,0 +1,33 @@
+.header {
+  top: 0px;
+  background: rgb(49, 49, 49);
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 4rem;
+  box-shadow: 2px 2px 10px rgba(102, 102, 102, 0.459);
+}
+#list {
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  float: left;  
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+
+nav ul li a {
+  display: block; 
+  font-size: 1.25rem;
+  padding: .7rem;
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li a:hover {  
+  color: rgb(150, 156, 150);
+}

@@ -1,0 +1,140 @@
+html {
+    height: 100%;
+    
+  }
+  
+  body {
+    font-size: 10px;
+    min-height: 100%;
+    min-width: 100%;
+    font-weight: 100;
+  }
+  
+
+.news-container{
+  display: grid;
+  width: 90%;
+  height: 100%;
+  margin: 1rem auto ;
+  grid:
+  "h1" 
+  "news" 
+  "news1" 
+  "news2"
+  "news3"
+  "news4";  
+}
+.news-container h4{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+  }
+
+
+  .news-container > div {
+      background:rgba(0, 0, 0, 0.1); 
+      margin-top: 3rem; 
+      box-shadow: 2px 2px 10px rgba(102, 102, 102, 0.459);
+      padding: 1.5rem;
+      
+  }
+  .news-container div div {
+    background-color: rgb(255, 255, 255);
+    margin-top: 1rem; 
+    box-shadow: 2px 2px 10px rgba(102, 102, 102, 0.459);
+    padding: 1rem;
+    border-radius: 0.25rem;
+    user-select: none;
+}
+  
+
+  .news {
+    grid-area: news;
+  }
+  .news1 {
+    grid-area: news1;
+  }
+  
+  .news2 {
+    grid-area: news2;
+  }
+  
+  .news3 {
+    grid-area: news3;
+  }
+  
+  .news4 {
+    grid-area: news4;
+  }
+
+
+
+#app{
+    font-size: 1.2rem; 
+      
+}
+th{
+  font-weight: 100;
+} 
+.table>thead {
+   vertical-align: middle ; 
+}
+.table>tbody {
+   vertical-align: middle;
+   
+}
+#userTable{
+    margin: 5rem auto;
+      
+  }
+#newsTable{
+    margin: 2.5rem auto;
+}
+  .table>:not(:last-child)>:last-child>*{    
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.55);  
+  }
+
+
+#overlay{
+  font-size: 1rem;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background:rgba(0, 0, 0, 0.5); 
+}
+#deleteOverlay{
+  font-size: 1rem;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background:rgba(0, 0, 0, 0.5); 
+}
+.form-group {
+  padding: .5rem;
+} 
+.form-group button{
+  width: 100%;
+  color: white;
+} 
+.close {
+  border: none;
+  padding: 0;
+  background: none;
+}
+#h5p {
+  margin-bottom: 1.25rem;
+  margin-top: 1.5rem;
+}
+.modal-lg {
+  max-width: 90%;  
+  background:rgba(0, 0, 0, 0.1); 
+}
