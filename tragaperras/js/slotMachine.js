@@ -43,9 +43,9 @@ function insertCoin(){
     slot2n = vegetables[slot2];
 
     //Buscamos la imagen de la verdura correspondiente y lo mostramos
-    document.getElementById("slot0").src="/img/"+slot0n+ ".png";
-    document.getElementById("slot1").src="/img/"+slot1n+ ".png";
-    document.getElementById("slot2").src="/img/"+slot2n+ ".png";
+    document.getElementById("slot0").src="img/"+slot0n+ ".png";
+    document.getElementById("slot1").src="img/"+slot1n+ ".png";
+    document.getElementById("slot2").src="img/"+slot2n+ ".png";
 
     //Ejecutamos la función para asignar los premios
     awards();
